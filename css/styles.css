@@ -3,22 +3,20 @@
   background-color: #ff4c68;
   color: white;
 }
+
 .navbar{
   padding:0 0 4.5rem;
-
 }
 
 .nav-item{
   padding: 0px 18px;
-
 }
 
 .nav-link{
   font-family:'Montserrat';
-
   font-size:1.2rem;
-
 }
+
 h1{
   font-family: 'Montserrat';
   font-size: 3rem;
@@ -29,12 +27,19 @@ h2{
   font-family: "Montserrat"
   font-size: 2rem;
   line-height: 1.5;
+}
+
+h3{
+  font-family: 'Montserrat';
+  font-size: 2rem;
+  line-height: 1.5;
 
 }
 
 p{
   color: #8f8f8f;
 }
+
 .container-fluid{
   padding : 3% 15%;
 }
@@ -55,6 +60,7 @@ p{
 
 .download-btn{
   margin :5px 5px 2px 5px;
+
 }
 
 #features {
@@ -83,7 +89,6 @@ position: relative;
   background-color: #ef8172;
   color: white;
   text-align: center;
-
 }
 
 .testimonial-img{
@@ -108,4 +113,46 @@ margin: 20px;
 
 .pricing-col{
   padding:2% 3%;
+}
+
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+
+}
+
+  .dog-img{
+    position: static;
+    transform: rotate(0deg);
+    width: 60%;
+    padding-top:2%
+  }
+}
+
+#cta{
+  background-color: #ff4c68;
+  color: white;
+  padding: 3% 27%;
+  text-align: center;
+}
+
+.fa-2x{
+  margin: 10px 10px;
+}
+#cta > h3{
+  padding-bottom: 1%;
+}
+
+#footer{
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#footer > p{
+  padding-top: 20px;
+  text-align: center;
+}
+
+.fab{
+  padding-left:20px;
 }
